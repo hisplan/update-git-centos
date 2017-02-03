@@ -3,6 +3,7 @@
 # Install git 2.11.0 on CentOS when yum doen't install the latest version for you.
 # Run this as root
 
+# Set the git version that you'd like to install
 GIT_VERSION="2.11.0"
 
 yum install -y curl-devel expat-devel gettext-devel openssl-devel zlib-devel
